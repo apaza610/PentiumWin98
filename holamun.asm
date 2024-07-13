@@ -1,3 +1,6 @@
+;-----------------------------------------------------------
+; Programa simple en TASM
+;-----------------------------------------------------------
             MODEL   small
             STACK   256
 
@@ -6,7 +9,7 @@ Nombre      EQU     "Homar"
 Edad        =       985
 
             DATASEG
-            cadena1     DB      'Presione una tecla$'
+cadena1     DB      'Presione una tecla$'
 
             CODESEG
 Main:       mov     ax, @data               ; Inicializar DS to address
