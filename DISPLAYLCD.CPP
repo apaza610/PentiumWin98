@@ -4,7 +4,7 @@ Conections: PPIportA --- data of LCD
 			PPIportC pin7 --- RS of LCD
 			PPIportC pin6 --- E of LCD
 Author:	Homar Orozco Apaza
-	LaPaz - Bolivia
+	LaPaz - Bolivia 2024
 ****************************************************/
 #include <stdio.h>
 #include <dos.h>
